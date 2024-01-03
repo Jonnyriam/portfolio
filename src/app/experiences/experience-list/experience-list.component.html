@@ -5,7 +5,11 @@
 >
   <div class="container">
     <ol>
-      <app-experience-item></app-experience-item>
+      <app-experience-item
+        *ngFor="let experienceEl of experiences; let i = index"
+        [experience]="experienceEl"
+        [index]="i"
+      ></app-experience-item>
       <li class="mb-12">
         <div class="card">
           <div class="row">
@@ -18,7 +22,7 @@
               <h3 class="font-semibold leading-snug text-slate-200">
                 <div>
                   <a
-                    ><span class="mr-1"> Game Developer ·</span
+                    ><span class="mr-1">Game Developer ·</span
                     ><span>GROUPINBLUE</span></a
                   >
                 </div>
