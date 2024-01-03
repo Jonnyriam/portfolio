@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { ExperienceDetailComponent } from './experiences/experience-detail/experience-detail.component';
 import { AboutComponent } from './about/about.component';
-import { ExperienceItemComponent } from './experiences/experience-item/experience-item.component';
+import { ExperienceItemComponent } from './experiences/experience-list/experience-item/experience-item.component';
 import { ExperienceComponent } from './experiences/experience/experience.component';
 import { ExperienceListComponent } from './experiences/experience-list/experience-list.component';
 

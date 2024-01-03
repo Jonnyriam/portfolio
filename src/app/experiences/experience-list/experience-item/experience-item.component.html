@@ -1,0 +1,37 @@
+<li class="mb-12">
+  <div class="card">
+    <div class="row">
+      <div
+        class="col-4 font-bold text-md-xs uppercase text-slate-500 tracking-wide"
+      >
+        <a> {{ experience?.date }} </a>
+      </div>
+      <div class="col-8">
+        <h3 class="font-semibold leading-snug text-slate-200">
+          <div>
+            <a
+              ><span class="mr-1">{{ experience?.position }}</span
+              ><span>{{ experience?.company }}</span></a
+            >
+          </div>
+          <div>
+            <div class="text-slate-500" aria-hidden="true">Freelance</div>
+          </div>
+        </h3>
+        <p class="mt-2 text-sm leading-normal">
+          {{ experience?.description }}
+        </p>
+
+        <ul class="mt-2 d-flex flex-wrap" aria-label="Technologies">
+          <li class="mr-1.5 mt-2" *ngFor="let st of experience?.stack">
+            <div
+              class="d-flex align-items-center rounded-full bg-teal-400-10 text-teal-300 font-medium text-xs px-3 py-1"
+            >
+              {{ st }}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</li>

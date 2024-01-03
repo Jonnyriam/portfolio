@@ -20,7 +20,7 @@ export class ExperienceService {
       ['Unity', 'C#', 'Visual Studio', 'SQL']
     ),
     new Experience(
-      'Game Developer',
+      'Game Developer ·',
       'Freelance',
       'GROUPINBLUE',
       `Lorem ipsum dolor sit amet. Qui ratione ipsam qui quasi dolor et
