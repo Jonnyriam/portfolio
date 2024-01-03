@@ -9,7 +9,7 @@ import { ExperienceService } from '../experience.service';
   styleUrls: ['./experience-list.component.css'],
 })
 export class ExperienceListComponent {
-  experiences: Experience[] | undefined;
+  experiences!: Experience[];
 
   constructor(
     private experienceService: ExperienceService,

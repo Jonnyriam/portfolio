@@ -7,6 +7,6 @@ import { Experience } from '../../experience.model';
   styleUrls: ['./experience-item.component.css'],
 })
 export class ExperienceItemComponent {
-  @Input() experience: Experience | undefined;
-  @Input() index: number | undefined;
+  @Input() experience!: Experience;
+  @Input() index!: number;
 }

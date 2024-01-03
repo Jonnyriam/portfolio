@@ -15,12 +15,13 @@ export class ExperienceService {
       quaerat asperiores. Et expedita dolorem ut possimus minima qui
       cupiditate explicabo qui deleniti nobis. Aut voluptatem similique qui
       quia dolore eos veritatis illo.`,
+      [],
       '09/2022 — 02/2023',
       'test',
       ['Unity', 'C#', 'Visual Studio', 'SQL']
     ),
     new Experience(
-      'Game Developer ·',
+      'Game Developer',
       'Freelance',
       'GROUPINBLUE',
       `Lorem ipsum dolor sit amet. Qui ratione ipsam qui quasi dolor et
@@ -28,6 +29,7 @@ export class ExperienceService {
       quaerat asperiores. Et expedita dolorem ut possimus minima qui
       cupiditate explicabo qui deleniti nobis. Aut voluptatem similique qui
       quia dolore eos veritatis illo.`,
+      [],
       '08/2020 — 03/2021',
       'test',
       ['Unity', 'C#', 'Visual Studio', 'HTML', 'CSS', 'JS']

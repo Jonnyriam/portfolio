@@ -4,6 +4,7 @@ export class Experience {
   public company: string;
   public date: string;
   public description: string;
+  public about: string[] = [];
   public imgPath: string;
   public stack: string[] = [];
 
@@ -12,6 +13,7 @@ export class Experience {
     jobType: string,
     company: string,
     desc: string,
+    about: string[],
     date: string,
     imgPath: string,
     stack: string[]
@@ -21,6 +23,7 @@ export class Experience {
     this.company = company;
     this.date = date;
     this.description = desc;
+    this.about = about;
     this.imgPath = imgPath;
     this.stack = stack;
   }
