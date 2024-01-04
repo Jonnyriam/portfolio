@@ -67,14 +67,15 @@ a:hover {
 }
 
 .card {
-  background-color: rgb(15 23 42);
+  background-color: rgb(13, 26, 58);
   color: currentColor;
   padding: 16px;
   border: 0;
+  border-radius: 12px;
 }
 
 .card:hover {
-  background-color: rgba(168, 230, 222, 0.08);
+  background-color: rgba(24, 182, 255, 0.116);
 }
 
 .sr-only {
@@ -130,7 +131,7 @@ a:hover {
 
 .bg-slate-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: rgb(10 20 44 / var(--tw-bg-opacity));
 }
 
 .text-slate-500 {
