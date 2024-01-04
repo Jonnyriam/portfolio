@@ -3,7 +3,8 @@ export class Experience {
   public jobType: string;
   public company: string;
   public date: string;
-  public description: string;
+  public shortDesc: string;
+  public description: string[] = [];
   public about: string[] = [];
   public imgPath: string;
   public stack: string[] = [];
@@ -12,7 +13,8 @@ export class Experience {
     position: string,
     jobType: string,
     company: string,
-    desc: string,
+    sDesc: string,
+    desc: string[],
     about: string[],
     date: string,
     imgPath: string,
@@ -22,6 +24,7 @@ export class Experience {
     this.jobType = jobType;
     this.company = company;
     this.date = date;
+    this.shortDesc = sDesc;
     this.description = desc;
     this.about = about;
     this.imgPath = imgPath;
