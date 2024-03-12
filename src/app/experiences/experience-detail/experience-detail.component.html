@@ -6,7 +6,7 @@
       rgba(10, 20, 44, 0.397),
       rgba(10, 20, 44, 0.315)
     );
-    background-size: auto;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
   "
@@ -90,15 +90,27 @@
       </section>
     </div>
     <div>
-      <h1 class="mt-2 text-xl font-bold text-slate-200">Stack</h1>
-      <ul class="d-flex">
-        <li
-          class="mt-3 text-lg align-items-center px-3 py-1"
-          *ngFor="let point of experience.stack"
-        >
-          {{ point }}
-        </li>
-      </ul>
+      <h1 class="mt-8 text-xl font-bold text-slate-200">Stack</h1>
+      <div class="container">
+        <div class="row">
+          <ul
+            class="d-flex flex-wrap"
+            style="justify-content: center; column-gap: 20px"
+          >
+            <li
+              class="mr-1 mt-2 col col-lg-2"
+              *ngFor="let point of experience.stack; let i = index"
+            >
+              <div
+                class="mt-3 text-lg rounded-full bg-teal-200-40 px-3 py-1 text-center"
+              >
+                <img [src]="experience.svgs[i]" class="mb-1" />
+                {{ point }}
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>

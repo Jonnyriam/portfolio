@@ -35,7 +35,17 @@ export class ExperienceService {
       ],
       '09/2022 — 02/2023',
       'test',
-      ['Unity', 'C#', 'Visual Studio', 'SQL']
+      ['Unity', 'C#', 'Visual Studio', 'SQL'],
+      [
+        //unity
+        'assets/images/icons8-unity.svg',
+        //c#
+        'assets/images/icons8-c-sharp-logo.svg',
+        //vs
+        'assets/images/icons8-visual-studio.svg',
+        //sql
+        'assets/images/icons8-postgresql.svg',
+      ]
     ),
     new Experience(
       'Game Developer',
@@ -56,7 +66,21 @@ export class ExperienceService {
       ],
       '08/2020 — 03/2021',
       'test',
-      ['Unity', 'C#', 'Visual Studio', 'HTML', 'CSS', 'JS']
+      ['Unity', 'C#', 'Visual Studio', 'HTML', 'CSS', 'JS'],
+      [
+        //unity
+        'assets/images/icons8-unity.svg',
+        //c#
+        'assets/images/icons8-c-sharp-logo.svg',
+        //vs
+        'assets/images/icons8-visual-studio.svg',
+        //html
+        'assets/images/icons8-html5.svg',
+        //css
+        'assets/images/icons8-css3.svg',
+        //js
+        'assets/images/icons8-js.svg',
+      ]
     ),
   ];
   constructor() {}

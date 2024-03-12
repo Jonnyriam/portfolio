@@ -8,6 +8,7 @@ export class Experience {
   public about: string[] = [];
   public imgPath: string;
   public stack: string[] = [];
+  public svgs: string[] = [];
 
   constructor(
     position: string,
@@ -18,7 +19,8 @@ export class Experience {
     about: string[],
     date: string,
     imgPath: string,
-    stack: string[]
+    stack: string[],
+    svgs: string[]
   ) {
     this.position = position;
     this.jobType = jobType;
@@ -29,5 +31,6 @@ export class Experience {
     this.about = about;
     this.imgPath = imgPath;
     this.stack = stack;
+    this.svgs = svgs;
   }
 }
