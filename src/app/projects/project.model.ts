@@ -1,7 +1,5 @@
-export class Experience {
+export class Project {
   public position: string;
-  public jobType: string;
-  public company: string;
   public date: string;
   public shortDesc: string;
   public description: string[] = [];
@@ -11,8 +9,6 @@ export class Experience {
 
   constructor(
     position: string,
-    jobType: string,
-    company: string,
     sDesc: string,
     desc: string[],
     about: string[],
@@ -21,8 +17,6 @@ export class Experience {
     svgs: string[]
   ) {
     this.position = position;
-    this.jobType = jobType;
-    this.company = company;
     this.date = date;
     this.shortDesc = sDesc;
     this.description = desc;

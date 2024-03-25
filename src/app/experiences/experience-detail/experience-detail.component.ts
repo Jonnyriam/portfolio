@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Experience } from '../experience.model';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ExperienceService } from '../experience.service';
@@ -21,6 +21,7 @@ export class ExperienceDetailComponent implements OnInit {
     this.route.params.subscribe((params: Params) => {
       this.id = +params['id'];
       this.experience = this.expService.getExperience(this.id);
+      console.log(this.route);
     });
   }
 }

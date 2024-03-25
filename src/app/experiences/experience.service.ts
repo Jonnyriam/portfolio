@@ -34,7 +34,6 @@ export class ExperienceService {
         cohesion.`,
       ],
       '09/2022 — 02/2023',
-      'test',
       ['Unity', 'C#', 'Visual Studio', 'SQL'],
       [
         //unity
@@ -65,7 +64,6 @@ export class ExperienceService {
         `Conducted a comprehensive assessment of code and validated its adherence to requested functionalities through thorough testing.`,
       ],
       '08/2020 — 03/2021',
-      'test',
       ['Unity', 'C#', 'Visual Studio', 'HTML', 'CSS', 'JS'],
       [
         //unity
