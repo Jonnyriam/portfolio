@@ -21,7 +21,6 @@ export class ExperienceDetailComponent implements OnInit {
     this.route.params.subscribe((params: Params) => {
       this.id = +params['id'];
       this.experience = this.expService.getExperience(this.id);
-      console.log(this.route);
     });
   }
 }

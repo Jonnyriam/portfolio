@@ -17,14 +17,14 @@ import { ProjectDetailComponent } from './projects/project-detail/project-detail
 const routes: Routes = [
   { path: '', component: HomeComponent },
   {
+    path: 'project',
+    component: AppComponent,
+    children: [{ path: ':id', component: ProjectDetailComponent }],
+  },
+  {
     path: 'experience',
     component: AppComponent,
     children: [{ path: ':id', component: ExperienceDetailComponent }],
-  },
-  {
-    path: 'project',
-    component: AppComponent,
-    children: [{ path: 'id', component: ProjectDetailComponent }],
   },
 ];
 
