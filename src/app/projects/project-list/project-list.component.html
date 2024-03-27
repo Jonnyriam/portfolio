@@ -1,0 +1,21 @@
+<div
+  class="text-2xl text-slate-200 mr-5 mb-5 font-semibold"
+  style="text-align: right"
+>
+  <p>Projects</p>
+</div>
+<section
+  id="experience"
+  class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+  aria-label="work experience"
+>
+  <div class="container">
+    <ol>
+      <app-project-item
+        *ngFor="let projectEl of projects; let i = index"
+        [project]="projectEl"
+        [index]="i"
+      ></app-project-item>
+    </ol>
+  </div>
+</section>

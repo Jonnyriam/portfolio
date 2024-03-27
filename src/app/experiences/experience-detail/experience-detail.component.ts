@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Experience } from '../experience.model';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ExperienceService } from '../experience.service';

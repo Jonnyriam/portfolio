@@ -39,7 +39,7 @@
           <h1
             class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"
           >
-            {{ experience.position }}
+            {{ project.position }}
           </h1>
           <div>
             <div class="row">
@@ -47,7 +47,6 @@
                 <span
                   class="text-2xl font-medium tracking-tight text-slate-200"
                 >
-                  {{ experience.jobType }} {{ experience.company ? "@" : "" }}
                 </span>
                 <a
                   class="mt-2 text-lg font-semibold tracking-tight text-slate-200 sm:text-xl"
@@ -55,13 +54,12 @@
                   href="https://groupinblue.com"
                   style="text-decoration: none"
                 >
-                  {{ experience.company }}
                 </a>
                 <div class="row">
                   <div
                     class="col text-lg font-medium tracking-tight text-slate-500"
                   >
-                    {{ experience.date }}
+                    {{ project.date }}
                   </div>
                 </div>
               </div>
@@ -72,13 +70,9 @@
       <div class="pt-24 lg:w-1/2 lg:py-24">
         <section class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
           <p class="mt-2 text-lg leading-normal">
-            <span *ngFor="let descEl of experience.description; let i = index">
-              <span
-                class="font-semibold text-slate-200"
-                *ngIf="i % 2 == 0; else noSemiBold"
-                >{{ descEl }} </span
-              ><ng-template #noSemiBold>{{ descEl }}</ng-template>
-            </span>
+            <span class="font-semibold text-slate-200"
+              >{{ project.description[0] }} </span
+            >{{ project.description[1] }}
           </p>
         </section>
       </div>
@@ -87,15 +81,8 @@
       <section>
         <h1 class="text-2xl font-bold text-slate-200">About</h1>
         <ul>
-          <li class="mt-3 text-lg" *ngFor="let point of experience.about">
-            <span *ngFor="let pointEl of point; let i = index">
-              <span
-                class="font-semibold text-slate-200"
-                *ngIf="i % 2 == 0; else noSemiBold2"
-                >{{ pointEl }}</span
-              >
-              <ng-template #noSemiBold2> {{ pointEl }}</ng-template>
-            </span>
+          <li class="mt-3 text-lg" *ngFor="let point of project.about">
+            {{ point }}
           </li>
         </ul>
       </section>
@@ -110,12 +97,12 @@
           >
             <li
               class="mr-1 mt-2 col col-lg-2"
-              *ngFor="let point of experience.stack; let i = index"
+              *ngFor="let point of project.stack; let i = index"
             >
               <div
                 class="mt-3 text-lg rounded-full bg-teal-200-40 px-3 py-1 text-center"
               >
-                <img [src]="experience.svgs[i]" class="mb-1" />
+                <img [src]="project.svgs[i]" class="mb-1" />
                 {{ point }}
               </div>
             </li>
