@@ -14,24 +14,60 @@ export class ExperienceService {
       often collaborated with the design team to bring about the best UX.`,
       [
         'As a passion project,',
-        ` I worked on a game in cooperation with a small company as a core gameplay and system developer. Additionally, I
+        ` I worked on a game in cooperation with a small company as a `,
+        `core gameplay and system developer.`,
+        ` Additionally, I
         often collaborated with the design team to bring about the best UX.`,
       ],
 
       [
-        `Designed and implemented a range of systems, covering everything from Save/Load functionality to intricate gameplay systems like
-        orbs, towers and character mechanics.`,
+        [
+          `Designed and implemented a range of systems,`,
+          `covering everything from `,
+          `Save/Load`,
+          `functionality to intricate gameplay systems like
+        `,
+          `orbs, towers`,
+          `and `,
+          `character mechanics.`,
+        ],
 
-        `Collaborated with other developers to establish robust data transmission from the game to servers, allowing for website display and
-        facilitating data aggregation for analysis. This cooperative effort enhanced my proficiency in recognizing and prioritizing data with
-        analytical significance, leading to the extraction of actionable insights for well-informed decision-making.`,
+        [
+          `Collaborated with other developers `,
+          `to establish robust data transmission from the game to servers, allowing it to be displayed on the website and
+        facilitating data aggregation for analysis. This cooperative effort `,
+          `enhanced `,
+          `my proficiency in `,
+          `recognizing `,
+          `and `,
+          `prioritizing `,
+          `data with
+        analytical significance,`,
+          ` leading to the extraction of actionable insights for well-informed decision-making.`,
+        ],
 
-        `Partnered with the Design team to shape the game UI and also contributed to the evolution of certain aspects of the website UI and
+        [
+          `Partnered with the Design team `,
+          `to shape the game UI and also contributed to the evolution of certain aspects of the website UI and
         UX.`,
+        ],
 
-        `Engaged with the Development team to improve the current and create newer necessary documents. This experience highlighted
-        how clear and comprehensive documentation fosters efficient communication, seamless knowledge transfer, and overall project
-        cohesion.`,
+        [
+          `Engaged with the Development team`,
+          `to improve the current and create newer necessary documents. `,
+          `This experience`,
+          ` highlighted how `,
+          `clear`,
+          ` and `,
+          `comprehensive documentation`,
+          ` fosters `,
+          `efficient communication,`,
+          `seamless `,
+          `knowledge transfer,`,
+          ` and overall `,
+          `project
+          cohesion.`,
+        ],
       ],
       '09/2022 — 02/2023',
       ['Unity', 'C#', 'Visual Studio', 'SQL'],
@@ -50,18 +86,24 @@ export class ExperienceService {
       'Game Developer',
       'Freelance',
       'GROUPINBLUE',
-      `Groupinblue was a dynamic studio with a multidisciplinary team. During my time there, I participated on the development of several
+      `GROUPINBLUE was a dynamic studio with a multidisciplinary team. During my time there, I participated on the development of several
       games and worked with 3D and space modelling.`,
       [
-        `Groupinblue was a dynamic studio with a multidisciplinary team.`,
+        `GROUPINBLUE was a dynamic studio with a multidisciplinary team.`,
         ` During my time there, I participated on the development of several
       games and worked with 3D and space modelling.`,
       ],
       [
-        `Teamed up with the product manager to create and refine algorithms for slot machines. This collaborative endeavor amplified my
+        [
+          `Teamed up with the product manager`,
+          ` to create and refine algorithms for slot machines. This collaborative endeavor amplified my
       proficiency in translating visionary concepts into technical algorithms.`,
+        ],
 
-        `Conducted a comprehensive assessment of code and validated its adherence to requested functionalities through thorough testing.`,
+        [
+          `Conducted`,
+          ` a comprehensive assessment of code and validated its adherence to requested functionalities through thorough testing.`,
+        ],
       ],
       '08/2020 — 03/2021',
       ['Unity', 'C#', 'Visual Studio', 'HTML', 'CSS', 'JS'],
