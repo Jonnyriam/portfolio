@@ -12,16 +12,25 @@ export class ProjectService {
       [
         'In partnership with a Masters student, I developed a VR game tailored for children with autism.',
         ` Our vision was to utilize virtual reality as a powerful medium for therapeutic intervention.
-         In my role, I oversaw the development process, meticulously crafting and refining the application's features to create an engaging and effective tool for therapy and learning.`,
+         In my role, I oversaw the development process, developing and refining the application's features to create an engaging and effective tool for therapy and learning.`,
       ],
       [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.`,
+        [
+          `Designed, developed and refined every game system`,
+          `in order to meet the Masters student planning of the game.`,
+        ],
+        [
+          `Helped creating and shaping`,
+          ` the game environment so that it could be more precise and less confuse for the children,
+           while keeping some degree of difficulty.`,
+        ],
+        [`Tweaked`, `animations so their transitions would be smoother.`],
+        [
+          `Created`,
+          `in partnership with the Masters student the game cinematics.`,
+        ],
       ],
-      '09/2022 — 02/2023',
+      '03/2023 — 08/2023',
       ['Unity', 'C#', 'Visual Studio'],
       [
         //unity
@@ -36,10 +45,28 @@ export class ProjectService {
       'Game Developer',
       'As a final project for my BsC, I was challenged to develop a complete game with 2 other colleagues.',
       [
-        'As a final project for my BsC, I was challenged to develop a complete game with 2 other colleagues.',
+        `As a final project for my BsC,`,
+        `I was challenged to develop a complete game with 2 other colleagues.`,
+        ` The game we created`,
+        `was a 2D survival game with macro and micromanagement aspects.`,
       ],
-      [],
-      '09/2022 — 02/2023',
+      [
+        [
+          `Developed a variety of systems,`,
+          `encompassing core functionalities such as `,
+          `Save/Load`,
+          `functionality and complex gameplay features like`,
+          `survivors mechanics, zombies combat AI`,
+          `and `,
+          `map features.`,
+        ],
+        [
+          `Cooperated with one of the colleagues`,
+          `to ensure that the game was balanced and fair, so that it would be fun yet challenging to play.`,
+        ],
+        [`Helped`, `creating and maintaining the game UI.`],
+      ],
+      '02/2023 — 06/2023',
       ['Unity', 'C#', 'Visual Studio'],
       [
         //unity
@@ -50,34 +77,32 @@ export class ProjectService {
         'assets/images/icons8-visual-studio.svg',
       ]
     ),
-    new Project(
-      'Game Developer',
-      'In partnership with a Masters student, developed a game for children with autism',
+    /*new Project(
+      'Web Developer',
+      'Developed this portfolio as a challenge to enhance my skills in Angular, HTML and CSS.',
       [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.`,
+        `Developed`,
+        `this portfolio as a challenge to enhance my skills in `,
+        `Angular, HTML and CSS.`,
+        `Also created this as a way to showcase my work in some projects that I've done in the future.`,
       ],
       [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.`,
+        [
+          `Developed`,`this porfolio as a challenge to enhance my skills.` 
+        ],
+        [``]
       ],
-      '09/2022 — 02/2023',
-      ['Unity', 'C#', 'Visual Studio'],
+      '01/2024 — 04/2024',
+      ['HTML', 'CSS', 'Angular'],
       [
         //unity
-        'assets/images/icons8-unity.svg',
+        'assets/images/icons8-html5.svg',
         //c#
-        'assets/images/icons8-c-sharp-logo.svg',
+        'assets/images/icons8-css3.svg',
         //vs
-        'assets/images/icons8-visual-studio.svg',
+        'assets/images/icons8-angularjs.svg',
       ]
-    ),
+    ),*/
   ];
   constructor() {}
 

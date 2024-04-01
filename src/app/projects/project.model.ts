@@ -3,7 +3,7 @@ export class Project {
   public date: string;
   public shortDesc: string;
   public description: string[] = [];
-  public about: string[] = [];
+  public about: string[][] = [];
   public stack: string[] = [];
   public svgs: string[] = [];
 
@@ -11,7 +11,7 @@ export class Project {
     position: string,
     sDesc: string,
     desc: string[],
-    about: string[],
+    about: string[][],
     date: string,
     stack: string[],
     svgs: string[]
